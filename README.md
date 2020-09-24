@@ -1,25 +1,7 @@
 <img src="./.readme/noroff-light.png" width="160" align="right">
 
-# ABC - Assignment X
+# OSL JS 2 Week 2 Lesson 4 Exercises
 
-## Brief
-
-- Insert copy
-- Insert copy
-- Insert copy
-
-## Level 1 Process
-
-- Insert copy
-- Insert copy
-- Insert copy
-
-## Level 2 Process
-
-- Insert copy
-- Insert copy
-- Insert copy
-
-## Submission
-
-- Insert copy
+1. Value Types
+2. IIFE, Functions
+3. Classes
