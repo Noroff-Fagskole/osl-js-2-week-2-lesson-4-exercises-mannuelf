@@ -1,7 +1,19 @@
 * {
     box-sizing: border-box;
 }
-
+.highlight {
+  border: 1px solid red;
+  background-color: red;
+}
+.blocks {
+  display: flex;
+  flex-flow: wrap;
+}
+.block{
+  border: 1px solid #444;
+  padding: 1em;
+  margin: 5px;
+}
 body {
     font-family: sans-serif;
     margin: 20px;
