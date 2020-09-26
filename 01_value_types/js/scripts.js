@@ -30,9 +30,8 @@ let a = 100; // one instance of a vairable global
 let b = a; // a second and new variable, seperate to a
 
 a = 200;
-
-//console.log("a", a);
-//console.log("b", b);
+console.log("a", a);
+console.log("b", b);
 
 //  Objects are copied by their reference
 // object is not stored in this varaible, it is stored in memory, in some location.

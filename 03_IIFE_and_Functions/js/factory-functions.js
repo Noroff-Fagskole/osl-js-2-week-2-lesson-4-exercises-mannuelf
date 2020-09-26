@@ -11,6 +11,8 @@ function creatHuman(firstName = "default", secondName = "default", isAlive = fal
   }
 }
 
+// class is actually only a syntax sugar over a constructor method.
+
 const mannuelFerreira = creatHuman("Mannuel", "Ferreira", true);
 const max = creatHuman("MAx", "Krohn", true);
 
