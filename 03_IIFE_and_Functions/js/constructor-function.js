@@ -1,19 +1,20 @@
-console.log("this", this);
+// console.log("this", this);
 
-function Human(firstName, height, isAlive) {
-  console.log("this", this);
+function Human(firstName, secondName, isAlive) {
+  console.log("Human", this);
   this.firstName = firstName;
-  this.height = height;
-  this.isAlive = isAlive;
+  this.secondName = secondName;
+
   this.walk = () => {
-    console.log('walking...');
+    console.log("walking...");
   }
-  this.run = () => {
-    console.log('running...');
-  }
+
 }
 
-const mannuel = new Human("Mannuel", "1.56", true);
+const mannuel = new Human("Mannuel", "Ferreira", true);
+
+console.log(mannuel.walk());
+console.log(mannuel);
 
 // first letter should be Uppercase.
 // this, is reference to the object that is executing this peice of code
